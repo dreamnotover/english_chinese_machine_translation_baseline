@@ -25,7 +25,7 @@ big 模式   sh  train_big.sh
 base 模式   sh  train_base.sh
 
 5、翻译
-将t2t_data里面的字典文件拷贝到 ./dict_path,然后预测。（因为翻译时只用到字典，也可指定t2t_data目录）
+将t2t_data里面的字典文件拷贝到 ./dict_path （一定要用自己的）,然后预测。（因为翻译时只用到字典，也可指定t2t_data目录）
 big 模式   sh  decode_big.sh
 base 模式   sh  decode_base.sh
 
