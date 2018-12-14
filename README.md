@@ -9,8 +9,10 @@ Neural Machine Translation (English-to-Chinese) baseline for AI_Challenger datas
 - TensorFlow 1.12.0
 - tensor2tensor
 - jieba 0.39
+ mkdir    t2t_tmp   t2t_data  raw_data
 1、下载数据  https://pan.baidu.com/s/1teDqwd3Tbc7cbacpzPpa7A
 解压后放入raw_data，所有官方数据都放入一个文件夹以方便处理
+unzip  raw_data.zip   -C raw_data
 
 2 定义新问题
  参考  https://blog.csdn.net/hpulfc/article/details/81172498
