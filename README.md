@@ -1,4 +1,5 @@
-# AI_Challenger
+# AI_Challenger 
+官方提供的脚本有不少错误，python脚本从2迁移到了3。 训练基本中去掉了batch_size项，改用 --worker_gpu_memory_fraction 可以免去内存溢出风险。
 
 git clone https://github.com/dreamnotover/english_chinese_machine_translation_baseline.git
 Neural Machine Translation (English-to-Chinese) baseline for AI_Challenger dataset.
@@ -38,7 +39,7 @@ base 模式   sh  decode_base.sh
 7、评估
 sh  ./sh   evaluate.sh
    
-result文件夹放入了本人训练模型得出的结果。有点遗憾，最佳模型未能保留下来，t2t训练过程中会删除旧模型，有好的结果应该及时终止并保存好模型后再继续训练。
+result文件夹放入了本人训练模型得出的结果。有点遗憾，最佳模型未能保留下来，t2t训练过程中会删除旧模型，有好的结果应该及时终止（或用另外一窗口拷贝）并保存好模型。
 
 
 # References
