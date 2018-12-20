@@ -29,6 +29,6 @@ t2t-decoder --data_dir=${DATA_DIR} --problem=translate_enzh_sub92k --model=trans
  
 ./tools/mteval-v11b.pl -s ./demodata1/src.sgm -r work-demo1/ref.seg.sgm -t work-demo1/hyp.seg.sgm -c > work-demo1/bleu.log
 
-#本次只计算了demo1的bleu，评估模型时可以使用计算结果的平均值作为评价标准
+#本次只计算了demo1的bleu，评估模型时可以使用三个demo数据计算结果的平均值作为评价标准
  
 
