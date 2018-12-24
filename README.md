@@ -1,4 +1,4 @@
-# AI_Challenger 
+# AI_Challenger  机器翻译
 官方提供的脚本有不少错误，python脚本从2迁移到了3。 训练基本中去掉了batch_size项，改用 --worker_gpu_memory_fraction 可以免去内存溢出风险。
 
 git clone https://github.com/dreamnotover/english_chinese_machine_translation_baseline.git
