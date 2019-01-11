@@ -37,7 +37,7 @@ base 模式   sh  decode_base.sh
 ./tools/wrap_xml.pl zh  t2t_tmp/ai_challenger_MTEnglishtoChinese_testA_20180827_en.sgm Wenhua < translation_testB_no_space.txt >submit.sgm
 
 7、评估
-sh  ./sh   evaluate.sh
+sh    evaluate.sh
    
 result文件夹放入了本人训练模型得出的结果。有点遗憾，最佳模型未能保留下来，t2t训练过程中会删除旧模型，有好的结果应该及时终止（或用另外一窗口拷贝）并保存好模型。
 
